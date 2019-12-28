@@ -41,13 +41,15 @@
                 <configuration>
                     <goals>install</goals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <localCheckout>true</localCheckout>
+                    <pushChanges>false</pushChanges>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/kitamarekweb/sfg-pet-clinic.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:kitamarekweb/sfg-pet-clinic.git</developerConnection>
         <tag>sfg-pet-clinic-0.0.1</tag>
     </scm>
 
