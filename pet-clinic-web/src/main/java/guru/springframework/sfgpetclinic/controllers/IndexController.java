@@ -11,4 +11,10 @@ public class IndexController {
 
         return "index"; // to bedzie szukac w templetach pliku o nazwie index
     }
+
+    @RequestMapping("/oups")
+    public String oupsHandler() {
+
+        return "notimplemented";
+    }
 }
