@@ -81,6 +81,8 @@ public class DataLoader implements CommandLineRunner {
         owner2.setCity("Miami");
         owner2.setTelephone("234234235112");
 
+//        Owner.builder().address("adres z buildera").build();  //mozna teraz tak tworzyc obiekty, przez pattern builder
+
         Pet fionasCat = new Pet();
         fionasCat.setPetType(saveCatPetType);
         fionasCat.setOwner(owner2);
